@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+//        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "plugins": [
+            {
+                "transform": "tst-reflect-transformer"
+            }
+        ]
+    },
+    "include": [
+        "src/index.tsx",
+        "src/**/*.tsx"
+    ],
+    "reflection": {
+        "metadata": false,
+        "debugMode": false
+    }
+}

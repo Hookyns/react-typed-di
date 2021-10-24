@@ -1,0 +1,46 @@
+{
+    "name": "react-typed-di",
+    "version": "0.1.0",
+    "description": "Constructor Dependency Injection for React based on tst-reflect types and netleaf dependency injection.",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "ttsc",
+        "prepare": "npm run build"
+    },
+    "author": {
+        "name": "Roman Jámbor",
+        "email": "hookcze@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@netleaf/extensions-dependency-injection-typed": ">=0.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.17.28",
+        "@types/react": ">=16.0.0",
+        "tst-reflect-transformer": "^0.8.3",
+        "ttypescript": "^1.5.12",
+        "typescript": "^4.2.0"
+    },
+    "peerDependencies": {
+        "react": "^16.0.0",
+        "tst-reflect": ">=0.5.0"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts",
+        "index.js.map"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hookyns/react-typed-di.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Hookyns/react-typed-di/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
