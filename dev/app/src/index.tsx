@@ -1,6 +1,6 @@
 import React                 from "react";
 import { render }            from "react-dom";
-import { DI }                from "../../../index";
+import { DI }                from "react-typed-di";
 import { App }               from "./App";
 import { rootConfiguration } from "./di";
 

@@ -1,13 +1,21 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "ES2019",
-        "sourceMap": true,
-        "declaration": true,
-		"experimentalDecorators": true,
-        "jsx": "react-jsx",
+        "target": "ES2018",
+        "allowJs": true,
+        "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "declaration": true,
 		"plugins": [
             {
                 "transform": "tst-reflect-transformer"
